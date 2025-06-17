@@ -1,0 +1,44 @@
+C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/seg7.v {1 {vlog -work work -stats=none C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/seg7.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module seg7
+-- Compiling module reg7
+
+Top level modules:
+	seg7
+
+} {} {}} C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/Simulator/testbench.v {1 {vlog -work work -stats=none C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/Simulator/testbench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/top.v {1 {vlog -work work -stats=none C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/top.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/part5.v {1 {vlog -work work -stats=none C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/part5.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module part5
+
+Top level modules:
+	part5
+
+} {} {}} C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/inst_mem.v {1 {vlog -work work -stats=none C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/inst_mem.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module inst_mem
+
+Top level modules:
+	inst_mem
+
+} {} {}} C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/flipflop.v {1 {vlog -work work -stats=none C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/flipflop.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module flipflop
+
+Top level modules:
+	flipflop
+
+} {} {}}

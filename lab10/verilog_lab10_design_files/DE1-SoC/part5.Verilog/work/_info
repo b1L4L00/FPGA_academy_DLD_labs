@@ -1,0 +1,264 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part3Verilog
+vdec3to8
+Z0 !s110 1749765721
+!i10b 1
+!s100 E9d]BM[ffGk@6ERTC>WdV2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I1B9[LPMKMLhGR2JaBBPdY1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog
+Z4 w1749765588
+Z5 8C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/proc.v
+Z6 FC:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/proc.v
+!i122 36
+L0 307 21
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1749765721.000000
+!s107 C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/proc.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/proc.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vflipflop
+Z12 !s110 1749764182
+!i10b 1
+!s100 P;6hFOEEa^W3B0XASX7o:2
+R1
+I3`E?nU:EI_4e2ISfWgaEL1
+R2
+R3
+w1467629240
+8C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/flipflop.v
+FC:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/flipflop.v
+!i122 28
+L0 1 11
+R7
+r1
+!s85 0
+31
+Z13 !s108 1749764182.000000
+!s107 C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/flipflop.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/flipflop.v|
+!i113 1
+R10
+R11
+vinst_mem
+R12
+!i10b 1
+!s100 `CeZR4F@jR0nm@A1T7V`d0
+R1
+IDbMEUS:oSZ<L?aAb;<D7D3
+R2
+R3
+w1749683864
+8C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/inst_mem.v
+FC:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/inst_mem.v
+!i122 29
+L0 40 67
+R7
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/inst_mem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/inst_mem.v|
+!i113 1
+R10
+R11
+vpart5
+!s110 1749764184
+!i10b 1
+!s100 iDGF<^1MAA]3eWaVXkKoC0
+R1
+Ij6^4K[9Fb:0ZH8YiXHgZi0
+R2
+R3
+w1610634984
+8C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/part5.v
+FC:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/part5.v
+!i122 30
+L0 3 48
+R7
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/part5.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/part5.v|
+!i113 1
+R10
+R11
+vpc_count
+R0
+!i10b 1
+!s100 hdXm?n^KTkjU;ooF:gEbm3
+R1
+IBV2dW=gh4HVT9McjKaR[n1
+R2
+R3
+R4
+R5
+R6
+!i122 36
+L0 292 14
+R7
+r1
+!s85 0
+31
+R8
+Z14 !s107 C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/proc.v|
+R9
+!i113 1
+R10
+R11
+vproc
+R0
+!i10b 1
+!s100 D[S>n2=M[b3`XQ]Qa]gQ62
+R1
+IX:A@Noh7e:cR1bI?eXH_G1
+R2
+R3
+R4
+R5
+R6
+!i122 36
+L0 2 289
+R7
+r1
+!s85 0
+31
+R8
+R14
+R9
+!i113 1
+R10
+R11
+vreg7
+Z15 !s110 1749764188
+!i10b 1
+!s100 EPjQAM>SUcSk[Q>00:`_?2
+R1
+IJ938D<:lcNFO9bXXAXhGG3
+R2
+R3
+Z16 w1749759755
+Z17 8C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/seg7.v
+Z18 FC:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/seg7.v
+!i122 33
+L0 19 13
+R7
+r1
+!s85 0
+31
+Z19 !s108 1749764188.000000
+Z20 !s107 C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/seg7.v|
+Z21 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/seg7.v|
+!i113 1
+R10
+R11
+vregn
+R0
+!i10b 1
+!s100 olTdGQHW;=b^KJVC1bnXR2
+R1
+IEd1O2SQacDKOa^bnEoWJI0
+R2
+R3
+R4
+R5
+R6
+!i122 36
+L0 329 13
+R7
+r1
+!s85 0
+31
+R8
+R14
+R9
+!i113 1
+R10
+R11
+vseg7
+R15
+!i10b 1
+!s100 15ofEYM5MS1gEjKQUJceH2
+R1
+I><8;SHIRY8G_3lJR<E>_92
+R2
+R3
+R16
+R17
+R18
+!i122 33
+L0 2 16
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+R10
+R11
+vtestbench
+Z22 !s110 1749764189
+!i10b 1
+!s100 KRkeXj0n`MT13k;[ViJYW3
+R1
+I8ao0fKbeHVJc<F`CkaI_k3
+R2
+R3
+w1562416084
+8C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/Simulator/testbench.v
+FC:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/Simulator/testbench.v
+!i122 35
+L0 3 33
+R7
+r1
+!s85 0
+31
+!s108 1749764189.000000
+!s107 C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/Simulator/testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/Simulator/testbench.v|
+!i113 1
+R10
+R11
+vtop
+R22
+!i10b 1
+!s100 FMl4@0VWAS_;PE3[ROGE61
+R1
+IXi2Pi@0=_WB1bGQ`8glnf0
+R2
+R3
+w1607252498
+8C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/top.v
+FC:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/top.v
+!i122 34
+L0 1 18
+R7
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/top.v|
+!i113 1
+R10
+R11

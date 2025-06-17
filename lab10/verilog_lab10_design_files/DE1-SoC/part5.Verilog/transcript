@@ -1,0 +1,34 @@
+# Compile of proc.v was successful.
+vaim work.testbench -L altera_mf
+# invalid command name "vaim"
+.
+# wrong # args: should be ". option ?arg ...?"
+vsim work.testbench -L altera_mf
+# vsim work.testbench -L altera_mf 
+# Start time: 03:02:33 on Jun 13,2025
+# Loading work.testbench
+# Loading work.part5
+# Loading work.flipflop
+# Loading work.proc
+# Loading work.dec3to8
+# Loading work.regn
+# Loading work.pc_count
+# Loading work.inst_mem
+# Loading altera_mf.altsyncram
+# Loading work.seg7
+# Loading work.reg7
+# Loading altera_mf.altsyncram_body
+# Loading altera_mf.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf.ALTERA_MF_MEMORY_INITIALIZATION
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/testbench/U1/U3/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: hp  Hostname: DESKTOP-FTNGBVJ  ProcessID: 18088
+#           Attempting to use alternate WLF file "./wlftb30h0c".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftb30h0c
+run -all
+# Break key hit
+# Simulation stop requested.
+# End time: 21:27:20 on Jun 14,2025, Elapsed time: 42:24:47
+# Errors: 0, Warnings: 5

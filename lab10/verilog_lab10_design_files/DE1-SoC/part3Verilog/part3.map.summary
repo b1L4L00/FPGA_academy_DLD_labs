@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Wed Jun 11 23:18:09 2025
+Quartus Prime Version : 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
+Revision Name : part3
+Top-level Entity Name : part3
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 231
+Total pins : 22
+Total virtual pins : 0
+Total block memory bits : 4,096
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0

@@ -1,0 +1,984 @@
+# Compile of flipflop.v was successful.
+# Compile of inst_mem.v was successful.
+# Compile of part3.cdf failed with 2 errors.
+# Compile of part3.v was successful.
+# Compile of proc.v failed with 1 errors.
+# Compile of top.v was successful.
+# Compile of testbench.v was successful.
+# 7 compiles, 2 failed with 3 errors.
+# Error opening C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part3Verilog/(vlog-13069) C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part3Verilog/proc.v
+# Path name 'C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part3Verilog/(vlog-13069) C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part3Verilog/proc.v' doesn't exist.
+# Error opening C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part3Verilog/(vlog-13069) C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part3Verilog/proc.v
+# Path name 'C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part3Verilog/(vlog-13069) C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part3Verilog/proc.v' doesn't exist.
+# Error opening C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part3Verilog/(vlog-13069) C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part3Verilog/proc.v
+# Path name 'C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part3Verilog/(vlog-13069) C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part3Verilog/proc.v' doesn't exist.
+# Error opening C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part3Verilog/(vlog-13069) C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part3Verilog/proc.v
+# Path name 'C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part3Verilog/(vlog-13069) C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part3Verilog/proc.v' doesn't exist.
+# Error opening C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part3Verilog/(vlog-13069) C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part3Verilog/proc.v
+# Path name 'C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part3Verilog/(vlog-13069) C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part3Verilog/proc.v' doesn't exist.
+# Compile of flipflop.v was successful.
+# Compile of inst_mem.v was successful.
+# Compile of part3.cdf failed with 2 errors.
+# Compile of part3.v was successful.
+# Compile of proc.v was successful.
+# Compile of top.v was successful.
+# Compile of testbench.v was successful.
+# 7 compiles, 1 failed with 2 errors.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 22:14:04 on Jun 11,2025
+# Loading work.testbench
+# Loading work.part3
+# Loading work.flipflop
+# Loading work.proc
+# Loading work.dec3to8
+# Loading work.regn
+# Loading work.pc_count
+# Loading work.inst_mem
+# ** Error: (vsim-3033) Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U4 File: C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part3Verilog/inst_mem.v Line: 62
+#         Searched libraries:
+#             C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part3Verilog/work
+# Error loading design
+# End time: 22:14:05 on Jun 11,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 11
+C:/intelFPGA/20.1/quartus/eda/sim_lib/
+# invalid command name "C:/intelFPGA/20.1/quartus/eda/sim_lib/"
+
+vlib altera_mf
+vmap altera_mf C:/intelFPGA/20.1/quartus/eda/sim_lib/altera_mf
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap altera_mf C:/intelFPGA/20.1/quartus/eda/sim_lib/altera_mf 
+# Modifying C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part3Verilog/processorE.mpf
+# ** Error (suppressible): (vmap-19) Failed to access library 'altera_mf' at "C:/intelFPGA/20.1/quartus/eda/sim_lib/altera_mf".
+# No such file or directory. (errno = ENOENT)
+
+vlog -work altera_mf C:/intelFPGA/20.1/quartus/eda/sim_lib/altera_mf.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:16:56 on Jun 11,2025
+# vlog -reportprogress 300 -work altera_mf C:/intelFPGA/20.1/quartus/eda/sim_lib/altera_mf.v 
+# ** Error: (vlib-35) Failed to create directory "C:/intelFPGA/20.1/quartus/eda/sim_lib/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vlib-35) Failed to create directory "C:/intelFPGA/20.1/quartus/eda/sim_lib/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vlib-19) Failed to access library 'C:/intelFPGA/20.1/quartus/eda/sim_lib/altera_mf' at "C:/intelFPGA/20.1/quartus/eda/sim_lib/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# End time: 22:16:57 on Jun 11,2025, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+
+vlib alter
+vlib altera_mf
+# ** Warning: (vlib-34) Library already exists at "altera_mf".
+vmap altera_mf C:\intelFPGA_lite\24.1std\quartus\eda\sim_lib
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap altera_mf C:intelFPGA_lite.1stdquartusedasim_lib 
+# Modifying C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part3Verilog/processorE.mpf
+# ** Error (suppressible): (vmap-19) Failed to access library 'altera_mf' at "C:intelFPGA_lite.1stdquartusedasim_lib".
+# Invalid argument. (errno = EINVAL)
+vmap altera_mf C:/intelFPGA_lite/24.1std/quartus/eda/sim_lib
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap altera_mf C:/intelFPGA_lite/24.1std/quartus/eda/sim_lib 
+# Modifying C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part3Verilog/processorE.mpf
+vlog -work altera_mf C:/intelFPGA_lite/24.1std/quartus/eda/sim_lib 
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:26:09 on Jun 11,2025
+# vlog -reportprogress 300 -work altera_mf C:/intelFPGA_lite/24.1std/quartus/eda/sim_lib 
+# ** Error: (vlib-2054) File "C:/intelFPGA_lite/24.1std/quartus/eda/sim_lib" is a directory.
+# End time: 22:26:09 on Jun 11,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+
+# vlog -reportprogress 300 -work altera_mf C:/intelFPGA_lite/24.1std/quartus/eda/sim_lib/altera_mf.v
+vlog -work altera_mf C:/intelFPGA_lite/24.1std/quartus/eda/sim_lib/altera_mf.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:27:23 on Jun 11,2025
+# vlog -reportprogress 300 -work altera_mf C:/intelFPGA_lite/24.1std/quartus/eda/sim_lib/altera_mf.v 
+# -- Compiling module lcell
+# -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
+# -- Compiling module ALTERA_MF_HINT_EVALUATION
+# -- Compiling module ALTERA_DEVICE_FAMILIES
+# -- Compiling module dffp
+# -- Compiling module pll_iobuf
+# -- Compiling module stx_m_cntr
+# -- Compiling module stx_n_cntr
+# -- Compiling module stx_scale_cntr
+# -- Compiling module MF_pll_reg
+# -- Compiling module MF_stratix_pll
+# -- Compiling module arm_m_cntr
+# -- Compiling module arm_n_cntr
+# -- Compiling module arm_scale_cntr
+# -- Compiling module MF_stratixii_pll
+# -- Compiling module ttn_m_cntr
+# -- Compiling module ttn_n_cntr
+# -- Compiling module ttn_scale_cntr
+# -- Compiling module MF_stratixiii_pll
+# -- Compiling module cda_m_cntr
+# -- Compiling module cda_n_cntr
+# -- Compiling module cda_scale_cntr
+# -- Compiling module MF_cycloneiii_pll
+# -- Compiling module MF_cycloneiiigl_m_cntr
+# -- Compiling module MF_cycloneiiigl_n_cntr
+# -- Compiling module MF_cycloneiiigl_scale_cntr
+# -- Compiling module cycloneiiigl_post_divider
+# -- Compiling module MF_cycloneiiigl_pll
+# -- Compiling module altpll
+# -- Compiling module altlvds_rx
+# -- Compiling module stratix_lvds_rx
+# -- Compiling module stratixgx_dpa_lvds_rx
+# -- Compiling module stratixii_lvds_rx
+# -- Compiling module flexible_lvds_rx
+# -- Compiling module stratixiii_lvds_rx
+# -- Compiling module stratixiii_lvds_rx_channel
+# -- Compiling module stratixiii_lvds_rx_dpa
+# -- Compiling module altlvds_tx
+# -- Compiling module stratixv_local_clk_divider
+# -- Compiling module stratix_tx_outclk
+# -- Compiling module stratixii_tx_outclk
+# -- Compiling module flexible_lvds_tx
+# -- Compiling module dcfifo_dffpipe
+# -- Compiling module dcfifo_fefifo
+# -- Compiling module dcfifo_async
+# -- Compiling module dcfifo_sync
+# -- Compiling module dcfifo_low_latency
+# -- Compiling module dcfifo_mixed_widths
+# -- Compiling module dcfifo
+# -- Compiling module altera_syncram_derived
+# -- Compiling module altera_syncram_derived_forwarding_logic
+# -- Compiling module altaccumulate
+# -- Compiling module altmult_accum
+# -- Compiling module altmult_add
+# -- Compiling module altfp_mult
+# -- Compiling module altsqrt
+# -- Compiling module altclklock
+# -- Compiling module altddio_in
+# -- Compiling module altddio_out
+# -- Compiling module altddio_bidir
+# -- Compiling module altdpram
+# -- Compiling module altsyncram
+# -- Compiling module altsyncram_body
+# -- Compiling module alt3pram
+# -- Compiling module parallel_add
+# -- Compiling module scfifo
+# -- Compiling module altshift_taps
+# -- Compiling module a_graycounter
+# -- Compiling module altsquare
+# -- Compiling module altera_std_synchronizer
+# -- Compiling module altera_std_synchronizer_bundle
+# -- Compiling module alt_cal
+# -- Compiling module alt_cal_mm
+# -- Compiling module alt_cal_c3gxb
+# -- Compiling module alt_cal_sv
+# -- Compiling module alt_cal_av
+# -- Compiling module alt_aeq_s4
+# -- Compiling module alt_eyemon
+# -- Compiling module alt_dfe
+# -- Compiling module signal_gen
+# -- Compiling module jtag_tap_controller
+# -- Compiling module dummy_hub
+# -- Compiling module sld_virtual_jtag
+# -- Compiling module sld_signaltap
+# -- Compiling module altstratixii_oct
+# -- Compiling module altparallel_flash_loader
+# -- Compiling module altserial_flash_loader
+# -- Compiling module alt_fault_injection
+# -- Compiling module sld_virtual_jtag_basic
+# -- Compiling module altsource_probe
+# 
+# Top level modules:
+# 	lcell
+# 	altpll
+# 	altlvds_rx
+# 	altlvds_tx
+# 	dcfifo
+# 	altaccumulate
+# 	altmult_accum
+# 	altmult_add
+# 	altfp_mult
+# 	altsqrt
+# 	altclklock
+# 	altddio_bidir
+# 	altdpram
+# 	alt3pram
+# 	parallel_add
+# 	scfifo
+# 	altshift_taps
+# 	a_graycounter
+# 	altsquare
+# 	altera_std_synchronizer_bundle
+# 	alt_cal
+# 	alt_cal_mm
+# 	alt_cal_c3gxb
+# 	alt_cal_sv
+# 	alt_cal_av
+# 	alt_aeq_s4
+# 	alt_eyemon
+# 	alt_dfe
+# 	sld_virtual_jtag
+# 	sld_signaltap
+# 	altstratixii_oct
+# 	altparallel_flash_loader
+# 	altserial_flash_loader
+# 	alt_fault_injection
+# 	sld_virtual_jtag_basic
+# 	altsource_probe
+# End time: 22:27:25 on Jun 11,2025, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+vsim work.top
+# vsim work.top 
+# Start time: 22:27:42 on Jun 11,2025
+# Loading work.top
+# Loading work.part3
+# Loading work.flipflop
+# Loading work.proc
+# Loading work.dec3to8
+# Loading work.regn
+# Loading work.pc_count
+# Loading work.inst_mem
+# ** Error: (vsim-3033) Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /top/U1/U4 File: C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part3Verilog/inst_mem.v Line: 62
+#         Searched libraries:
+#             C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part3Verilog/work
+# Error loading design
+# End time: 22:27:42 on Jun 11,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vdel -lib altera_mf
+# Usage: vdel -help
+#        vdel [-lib <path>] [-modelsimini <ini_filepath>] [-verbose] { -all | <primary> [<secondary>] | -allsystemc |  [-dpiobj [<platform>|<compiler>|<platform_compiler>|all] ]  [-obj [<platform>|<compiler>|<platform_compiler>|all] ]}
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vdel failed.
+vlib altera_mf
+# ** Warning: (vlib-34) Library already exists at "altera_mf".
+vmap altera_mf C:/intelFPGA_lite/24.1std/quartus/eda/sim_lib
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap altera_mf C:/intelFPGA_lite/24.1std/quartus/eda/sim_lib 
+# Modifying C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part3Verilog/processorE.mpf
+
+vdel -all altera_mf
+
+vlib altera_mf
+# ** Warning: (vlib-34) Library already exists at "altera_mf".
+vmap altera_mf C:/intelFPGA_lite/24.1std/quartus/eda/sim_lib
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap altera_mf C:/intelFPGA_lite/24.1std/quartus/eda/sim_lib 
+# Modifying C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part3Verilog/processorE.mpf
+
+vlog -work altera_mf C:/intelFPGA_lite/24.1std/quartus/eda/sim_lib/altera_mf.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:32:20 on Jun 11,2025
+# vlog -reportprogress 300 -work altera_mf C:/intelFPGA_lite/24.1std/quartus/eda/sim_lib/altera_mf.v 
+# -- Compiling module lcell
+# -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
+# -- Compiling module ALTERA_MF_HINT_EVALUATION
+# -- Compiling module ALTERA_DEVICE_FAMILIES
+# -- Compiling module dffp
+# -- Compiling module pll_iobuf
+# -- Compiling module stx_m_cntr
+# -- Compiling module stx_n_cntr
+# -- Compiling module stx_scale_cntr
+# -- Compiling module MF_pll_reg
+# -- Compiling module MF_stratix_pll
+# -- Compiling module arm_m_cntr
+# -- Compiling module arm_n_cntr
+# -- Compiling module arm_scale_cntr
+# -- Compiling module MF_stratixii_pll
+# -- Compiling module ttn_m_cntr
+# -- Compiling module ttn_n_cntr
+# -- Compiling module ttn_scale_cntr
+# -- Compiling module MF_stratixiii_pll
+# -- Compiling module cda_m_cntr
+# -- Compiling module cda_n_cntr
+# -- Compiling module cda_scale_cntr
+# -- Compiling module MF_cycloneiii_pll
+# -- Compiling module MF_cycloneiiigl_m_cntr
+# -- Compiling module MF_cycloneiiigl_n_cntr
+# -- Compiling module MF_cycloneiiigl_scale_cntr
+# -- Compiling module cycloneiiigl_post_divider
+# -- Compiling module MF_cycloneiiigl_pll
+# -- Compiling module altpll
+# -- Compiling module altlvds_rx
+# -- Compiling module stratix_lvds_rx
+# -- Compiling module stratixgx_dpa_lvds_rx
+# -- Compiling module stratixii_lvds_rx
+# -- Compiling module flexible_lvds_rx
+# -- Compiling module stratixiii_lvds_rx
+# -- Compiling module stratixiii_lvds_rx_channel
+# -- Compiling module stratixiii_lvds_rx_dpa
+# -- Compiling module altlvds_tx
+# -- Compiling module stratixv_local_clk_divider
+# -- Compiling module stratix_tx_outclk
+# -- Compiling module stratixii_tx_outclk
+# -- Compiling module flexible_lvds_tx
+# -- Compiling module dcfifo_dffpipe
+# -- Compiling module dcfifo_fefifo
+# -- Compiling module dcfifo_async
+# -- Compiling module dcfifo_sync
+# -- Compiling module dcfifo_low_latency
+# -- Compiling module dcfifo_mixed_widths
+# -- Compiling module dcfifo
+# -- Compiling module altera_syncram_derived
+# -- Compiling module altera_syncram_derived_forwarding_logic
+# -- Compiling module altaccumulate
+# -- Compiling module altmult_accum
+# -- Compiling module altmult_add
+# -- Compiling module altfp_mult
+# -- Compiling module altsqrt
+# -- Compiling module altclklock
+# -- Compiling module altddio_in
+# -- Compiling module altddio_out
+# -- Compiling module altddio_bidir
+# -- Compiling module altdpram
+# -- Compiling module altsyncram
+# -- Compiling module altsyncram_body
+# -- Compiling module alt3pram
+# -- Compiling module parallel_add
+# -- Compiling module scfifo
+# -- Compiling module altshift_taps
+# -- Compiling module a_graycounter
+# -- Compiling module altsquare
+# -- Compiling module altera_std_synchronizer
+# -- Compiling module altera_std_synchronizer_bundle
+# -- Compiling module alt_cal
+# -- Compiling module alt_cal_mm
+# -- Compiling module alt_cal_c3gxb
+# -- Compiling module alt_cal_sv
+# -- Compiling module alt_cal_av
+# -- Compiling module alt_aeq_s4
+# -- Compiling module alt_eyemon
+# -- Compiling module alt_dfe
+# -- Compiling module signal_gen
+# -- Compiling module jtag_tap_controller
+# -- Compiling module dummy_hub
+# -- Compiling module sld_virtual_jtag
+# -- Compiling module sld_signaltap
+# -- Compiling module altstratixii_oct
+# -- Compiling module altparallel_flash_loader
+# -- Compiling module altserial_flash_loader
+# -- Compiling module alt_fault_injection
+# -- Compiling module sld_virtual_jtag_basic
+# -- Compiling module altsource_probe
+# 
+# Top level modules:
+# 	lcell
+# 	altpll
+# 	altlvds_rx
+# 	altlvds_tx
+# 	dcfifo
+# 	altaccumulate
+# 	altmult_accum
+# 	altmult_add
+# 	altfp_mult
+# 	altsqrt
+# 	altclklock
+# 	altddio_bidir
+# 	altdpram
+# 	alt3pram
+# 	parallel_add
+# 	scfifo
+# 	altshift_taps
+# 	a_graycounter
+# 	altsquare
+# 	altera_std_synchronizer_bundle
+# 	alt_cal
+# 	alt_cal_mm
+# 	alt_cal_c3gxb
+# 	alt_cal_sv
+# 	alt_cal_av
+# 	alt_aeq_s4
+# 	alt_eyemon
+# 	alt_dfe
+# 	sld_virtual_jtag
+# 	sld_signaltap
+# 	altstratixii_oct
+# 	altparallel_flash_loader
+# 	altserial_flash_loader
+# 	alt_fault_injection
+# 	sld_virtual_jtag_basic
+# 	altsource_probe
+# End time: 22:32:22 on Jun 11,2025, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+
+vsim work.testbench -L altera_mf
+# vsim work.testbench -L altera_mf 
+# Start time: 22:32:36 on Jun 11,2025
+# ** Error (suppressible): (vsim-19) Failed to access library 'work' at "work".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+
+# End time: 22:32:36 on Jun 11,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of flipflop.v failed with 1 errors.
+# Compile of inst_mem.v failed with 1 errors.
+# Compile of part3.v failed with 1 errors.
+# Compile of proc.v failed with 1 errors.
+# Compile of top.v failed with 1 errors.
+# Compile of testbench.v failed with 1 errors.
+# 6 compiles, 6 failed with 6 errors.
+vlib work
+
+# Compile of flipflop.v was successful.
+# Compile of inst_mem.v was successful.
+# Compile of part3.v was successful.
+# Compile of proc.v was successful.
+# Compile of top.v was successful.
+# Compile of testbench.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim work.testbench -L altera_mf
+# vsim work.testbench -L altera_mf 
+# Start time: 22:34:21 on Jun 11,2025
+# Loading work.testbench
+# Loading work.part3
+# Loading work.flipflop
+# Loading work.proc
+# Loading work.dec3to8
+# Loading work.regn
+# Loading work.pc_count
+# Loading work.inst_mem
+# Loading altera_mf.altsyncram
+# Loading altera_mf.altsyncram_body
+# Loading altera_mf.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf.ALTERA_MF_MEMORY_INITIALIZATION
+
+add wave -position insertpoint sim:/testbench/*
+add wave -position insertpoint sim:/testbench/U1/*
+run -all
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/testbench/U1/U3/*
+# Break key hit
+# Break in Module proc at C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part3Verilog/proc.v line 38
+add wave -position insertpoint sim:/testbench/U1/U3/*
+vsim -L altera_mf work.testbench
+# End time: 22:55:01 on Jun 11,2025, Elapsed time: 0:20:40
+# Errors: 0, Warnings: 3
+# vsim -L altera_mf work.testbench 
+# Start time: 22:55:01 on Jun 11,2025
+# Loading work.testbench
+# Loading work.part3
+# Loading work.flipflop
+# Loading work.proc
+# Loading work.dec3to8
+# Loading work.regn
+# Loading work.pc_count
+# Loading work.inst_mem
+# Loading altera_mf.altsyncram
+# Loading altera_mf.altsyncram_body
+# Loading altera_mf.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position insertpoint sim:/testbench/U1/U3/*
+run -all
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# End time: 18:36:48 on Jun 12,2025, Elapsed time: 19:41:47
+# Errors: 0, Warnings: 2
+# reading C:\intelFPGA\20.1\modelsim_ase\win32aloem\modelsim.exe
+# Loading project enhancedP
+# Compile of flipflop.v was successful.
+# Compile of inst_mem.v was successful.
+# Compile of part5.v was successful.
+# Compile of proc.v was successful.
+# Compile of seg7.v was successful.
+# Compile of top.v was successful.
+# Compile of testbench.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 18:38:33 on Jun 12,2025
+# Loading work.testbench
+# Loading work.part5
+# Loading work.flipflop
+# Loading work.proc
+# Loading work.dec3to8
+# Loading work.regn
+# Loading work.pc_count
+# Loading work.inst_mem
+# ** Error: (vsim-3033) Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U4 File: C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/inst_mem.v Line: 63
+#         Searched libraries:
+#             C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/work
+# Loading work.seg7
+# Loading work.reg7
+# Error loading design
+# End time: 18:38:34 on Jun 12,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 6
+vlib altera_mf
+vmap altera_mf C:/intelFPGA_lite/24.1std/quartus/eda/sim_lib
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap altera_mf C:/intelFPGA_lite/24.1std/quartus/eda/sim_lib 
+# Modifying C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/enhancedP.mpf
+vlog -work altera_mf C:/intelFPGA_lite/24.1std/quartus/eda/sim_lib/altera_mf.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:40:26 on Jun 12,2025
+# vlog -reportprogress 300 -work altera_mf C:/intelFPGA_lite/24.1std/quartus/eda/sim_lib/altera_mf.v 
+# -- Compiling module lcell
+# -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
+# -- Compiling module ALTERA_MF_HINT_EVALUATION
+# -- Compiling module ALTERA_DEVICE_FAMILIES
+# -- Compiling module dffp
+# -- Compiling module pll_iobuf
+# -- Compiling module stx_m_cntr
+# -- Compiling module stx_n_cntr
+# -- Compiling module stx_scale_cntr
+# -- Compiling module MF_pll_reg
+# -- Compiling module MF_stratix_pll
+# -- Compiling module arm_m_cntr
+# -- Compiling module arm_n_cntr
+# -- Compiling module arm_scale_cntr
+# -- Compiling module MF_stratixii_pll
+# -- Compiling module ttn_m_cntr
+# -- Compiling module ttn_n_cntr
+# -- Compiling module ttn_scale_cntr
+# -- Compiling module MF_stratixiii_pll
+# -- Compiling module cda_m_cntr
+# -- Compiling module cda_n_cntr
+# -- Compiling module cda_scale_cntr
+# -- Compiling module MF_cycloneiii_pll
+# -- Compiling module MF_cycloneiiigl_m_cntr
+# -- Compiling module MF_cycloneiiigl_n_cntr
+# -- Compiling module MF_cycloneiiigl_scale_cntr
+# -- Compiling module cycloneiiigl_post_divider
+# -- Compiling module MF_cycloneiiigl_pll
+# -- Compiling module altpll
+# -- Compiling module altlvds_rx
+# -- Compiling module stratix_lvds_rx
+# -- Compiling module stratixgx_dpa_lvds_rx
+# -- Compiling module stratixii_lvds_rx
+# -- Compiling module flexible_lvds_rx
+# -- Compiling module stratixiii_lvds_rx
+# -- Compiling module stratixiii_lvds_rx_channel
+# -- Compiling module stratixiii_lvds_rx_dpa
+# -- Compiling module altlvds_tx
+# -- Compiling module stratixv_local_clk_divider
+# -- Compiling module stratix_tx_outclk
+# -- Compiling module stratixii_tx_outclk
+# -- Compiling module flexible_lvds_tx
+# -- Compiling module dcfifo_dffpipe
+# -- Compiling module dcfifo_fefifo
+# -- Compiling module dcfifo_async
+# -- Compiling module dcfifo_sync
+# -- Compiling module dcfifo_low_latency
+# -- Compiling module dcfifo_mixed_widths
+# -- Compiling module dcfifo
+# -- Compiling module altera_syncram_derived
+# -- Compiling module altera_syncram_derived_forwarding_logic
+# -- Compiling module altaccumulate
+# -- Compiling module altmult_accum
+# -- Compiling module altmult_add
+# -- Compiling module altfp_mult
+# -- Compiling module altsqrt
+# -- Compiling module altclklock
+# -- Compiling module altddio_in
+# -- Compiling module altddio_out
+# -- Compiling module altddio_bidir
+# -- Compiling module altdpram
+# -- Compiling module altsyncram
+# -- Compiling module altsyncram_body
+# -- Compiling module alt3pram
+# -- Compiling module parallel_add
+# -- Compiling module scfifo
+# -- Compiling module altshift_taps
+# -- Compiling module a_graycounter
+# -- Compiling module altsquare
+# -- Compiling module altera_std_synchronizer
+# -- Compiling module altera_std_synchronizer_bundle
+# -- Compiling module alt_cal
+# -- Compiling module alt_cal_mm
+# -- Compiling module alt_cal_c3gxb
+# -- Compiling module alt_cal_sv
+# -- Compiling module alt_cal_av
+# -- Compiling module alt_aeq_s4
+# -- Compiling module alt_eyemon
+# -- Compiling module alt_dfe
+# -- Compiling module signal_gen
+# -- Compiling module jtag_tap_controller
+# -- Compiling module dummy_hub
+# -- Compiling module sld_virtual_jtag
+# -- Compiling module sld_signaltap
+# -- Compiling module altstratixii_oct
+# -- Compiling module altparallel_flash_loader
+# -- Compiling module altserial_flash_loader
+# -- Compiling module alt_fault_injection
+# -- Compiling module sld_virtual_jtag_basic
+# -- Compiling module altsource_probe
+# 
+# Top level modules:
+# 	lcell
+# 	altpll
+# 	altlvds_rx
+# 	altlvds_tx
+# 	dcfifo
+# 	altaccumulate
+# 	altmult_accum
+# 	altmult_add
+# 	altfp_mult
+# 	altsqrt
+# 	altclklock
+# 	altddio_bidir
+# 	altdpram
+# 	alt3pram
+# 	parallel_add
+# 	scfifo
+# 	altshift_taps
+# 	a_graycounter
+# 	altsquare
+# 	altera_std_synchronizer_bundle
+# 	alt_cal
+# 	alt_cal_mm
+# 	alt_cal_c3gxb
+# 	alt_cal_sv
+# 	alt_cal_av
+# 	alt_aeq_s4
+# 	alt_eyemon
+# 	alt_dfe
+# 	sld_virtual_jtag
+# 	sld_signaltap
+# 	altstratixii_oct
+# 	altparallel_flash_loader
+# 	altserial_flash_loader
+# 	alt_fault_injection
+# 	sld_virtual_jtag_basic
+# 	altsource_probe
+# End time: 18:40:34 on Jun 12,2025, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 0
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 18:40:42 on Jun 12,2025
+# Loading work.testbench
+# Loading work.part5
+# Loading work.flipflop
+# Loading work.proc
+# Loading work.dec3to8
+# Loading work.regn
+# Loading work.pc_count
+# Loading work.inst_mem
+# ** Error: (vsim-3033) Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U4 File: C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/inst_mem.v Line: 63
+#         Searched libraries:
+#             C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/work
+# Loading work.seg7
+# Loading work.reg7
+# Error loading design
+# End time: 18:40:43 on Jun 12,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+vsim -L altera_mf work.testbench
+# vsim -L altera_mf work.testbench 
+# Start time: 18:41:01 on Jun 12,2025
+# Loading work.testbench
+# Loading work.part5
+# Loading work.flipflop
+# Loading work.proc
+# Loading work.dec3to8
+# Loading work.regn
+# Loading work.pc_count
+# Loading work.inst_mem
+# Loading altera_mf.altsyncram
+# Loading work.seg7
+# Loading work.reg7
+# Loading altera_mf.altsyncram_body
+# Loading altera_mf.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf.ALTERA_MF_MEMORY_INITIALIZATION
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/testbench/U1/U6/*
+add wave -position insertpoint sim:/testbench/U1/*
+add wave -position insertpoint sim:/testbench/U1/U3/*
+run -all
+# Compile of proc.v was successful.
+# Break key hit
+# Break in Module regn at C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/proc.v line 328
+vsim work.testbench
+# End time: 18:53:45 on Jun 12,2025, Elapsed time: 0:12:44
+# Errors: 0, Warnings: 2
+# vsim work.testbench 
+# Start time: 18:53:45 on Jun 12,2025
+# Loading work.testbench
+# Loading work.part5
+# Loading work.flipflop
+# Loading work.proc
+# Loading work.dec3to8
+# Loading work.regn
+# Loading work.pc_count
+# Loading work.inst_mem
+# ** Error: (vsim-3033) Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U4 File: C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/inst_mem.v Line: 63
+#         Searched libraries:
+#             C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/work
+# Loading work.seg7
+# Loading work.reg7
+# Error loading design
+# End time: 18:53:45 on Jun 12,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vsim -L altera_mf work.testbench
+# vsim -L altera_mf work.testbench 
+# Start time: 18:54:03 on Jun 12,2025
+# Loading work.testbench
+# Loading work.part5
+# Loading work.flipflop
+# Loading work.proc
+# Loading work.dec3to8
+# Loading work.regn
+# Loading work.pc_count
+# Loading work.inst_mem
+# Loading altera_mf.altsyncram
+# Loading work.seg7
+# Loading work.reg7
+# Loading altera_mf.altsyncram_body
+# Loading altera_mf.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf.ALTERA_MF_MEMORY_INITIALIZATION
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/testbench/U1/U3/*
+run -all
+# Break key hit
+# Break in Module proc at C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/proc.v line 44
+vsim -L altera_mf work.testbench
+# End time: 18:56:51 on Jun 12,2025, Elapsed time: 0:02:48
+# Errors: 0, Warnings: 1
+# vsim -L altera_mf work.testbench 
+# Start time: 18:56:51 on Jun 12,2025
+# Loading work.testbench
+# Loading work.part5
+# Loading work.flipflop
+# Loading work.proc
+# Loading work.dec3to8
+# Loading work.regn
+# Loading work.pc_count
+# Loading work.inst_mem
+# Loading altera_mf.altsyncram
+# Loading work.seg7
+# Loading work.reg7
+# Loading altera_mf.altsyncram_body
+# Loading altera_mf.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf.ALTERA_MF_MEMORY_INITIALIZATION
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/testbench/U1/U3/*
+run -all
+# Compile of proc.v was successful.
+# Break key hit
+# Simulation stop requested.
+vsim -L altera_mf work.testbench
+# End time: 18:57:58 on Jun 12,2025, Elapsed time: 0:01:07
+# Errors: 0, Warnings: 2
+# vsim -L altera_mf work.testbench 
+# Start time: 18:57:58 on Jun 12,2025
+# Loading work.testbench
+# Loading work.part5
+# Loading work.flipflop
+# Loading work.proc
+# Loading work.dec3to8
+# Loading work.regn
+# Loading work.pc_count
+# Loading work.inst_mem
+# Loading altera_mf.altsyncram
+# Loading work.seg7
+# Loading work.reg7
+# Loading altera_mf.altsyncram_body
+# Loading altera_mf.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf.ALTERA_MF_MEMORY_INITIALIZATION
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/testbench/U1/U3/*
+run
+run -all
+# Break key hit
+# Break in Module flipflop at C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/flipflop.v line 6
+# Compile of proc.v was successful.
+vsim -L altera_mf work.testbench
+# End time: 18:59:36 on Jun 12,2025, Elapsed time: 0:01:38
+# Errors: 0, Warnings: 2
+# vsim -L altera_mf work.testbench 
+# Start time: 18:59:36 on Jun 12,2025
+# Loading work.testbench
+# Loading work.part5
+# Loading work.flipflop
+# Loading work.proc
+# Loading work.dec3to8
+# Loading work.regn
+# Loading work.pc_count
+# Loading work.inst_mem
+# Loading altera_mf.altsyncram
+# Loading work.seg7
+# Loading work.reg7
+# Loading altera_mf.altsyncram_body
+# Loading altera_mf.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position insertpoint sim:/testbench/U1/U3/*
+run -all
+# Break key hit
+# Simulation stop requested.
+vsim work.testbench
+# End time: 23:10:19 on Jun 12,2025, Elapsed time: 4:10:43
+# Errors: 0, Warnings: 1
+# vsim work.testbench 
+# Start time: 23:10:19 on Jun 12,2025
+# Loading work.testbench
+# Loading work.part5
+# Loading work.flipflop
+# Loading work.proc
+# Loading work.dec3to8
+# Loading work.regn
+# Loading work.pc_count
+# Loading work.inst_mem
+# ** Error: (vsim-3033) Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U4 File: C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/inst_mem.v Line: 63
+#         Searched libraries:
+#             C:/Users/hp/Downloads/verilog_lab10_design_files/DE1-SoC/part5.Verilog/work
+# Loading work.seg7
+# Loading work.reg7
+# Error loading design
+# End time: 23:10:19 on Jun 12,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+
+module proc(DIN, Resetn, Clock, Run, DOUT, ADDR, W);
+# bad option "proc(DIN,": must be blank, cget, configure, copy, data, get, put, read, redither, transparency, or write
+    input [15:0] DIN;
+# invalid command name "input"
+    input Resetn, Clock, Run;
+# invalid command name "input"
+    output wire [15:0] DOUT;
+# invalid command name "output"
+    output wire [15:0] ADDR;
+# invalid command name "output"
+    output wire W;
+# invalid command name "output"
+
+    wire [0:7] R_in; // r0, ..., r7 register enables
+# invalid command name "wire"
+    reg rX_in, IR_in, ADDR_in, Done, DOUT_in, A_in, G_in, AddSub, ALU_and;
+# ERROR: Invalid Argument/Option - 'rX_in,'.
+# Type "REG /?" for usage.
+    reg [2:0] Tstep_Q, Tstep_D;
+# ERROR: Invalid Argument/Option - '[2:0]'.
+# Type "REG /?" for usage.
+    reg [15:0] BusWires;
+# ERROR: Invalid Argument/Option - '[15:0]'.
+# Type "REG /?" for usage.
+    reg [3:0] Select; // BusWires selector
+# ERROR: Invalid Argument/Option - '[3:0]'.
+# Type "REG /?" for usage.
+    reg [15:0] Sum;
+# ERROR: Invalid Argument/Option - '[15:0]'.
+# Type "REG /?" for usage.
+    wire [2:0] III, rX, rY; // instruction opcode and register operands
+# invalid command name "wire"
+    wire [15:0] r0, r1, r2, r3, r4, r5, r6, pc, A;
+# invalid command name "wire"
+    wire [15:0] G;
+# invalid command name "wire"
+    wire [15:0] IR;
+# invalid command name "wire"
+    reg pc_incr;    // used to increment the pc
+# ERROR: Invalid Argument/Option - 'pc_incr'.
+# Type "REG /?" for usage.
+    reg pc_in;      // used to load the pc
+# ERROR: Invalid Argument/Option - 'pc_in'.
+# Type "REG /?" for usage.
+    reg W_D;        // used for write signal
+# ERROR: Invalid Argument/Option - 'W_D'.
+# Type "REG /?" for usage.
+    wire Imm;
+# invalid command name "wire"
+    reg  z, n, c;
+# ERROR: Invalid Argument/Option - 'z,'.
+# Type "REG /?" for usage.
+    assign III = IR[15:13];
+# invalid command name "assign"
+    assign Imm = IR[12];
+# invalid command name "assign"
+    assign rX = IR[11:9];
+# invalid command name "assign"
+    assign rY = IR[2:0];
+# invalid command name "assign"
+    dec3to8 decX (rX_in, rX, R_in); // produce r0 - r7 register enables
+# invalid command name "dec3to8"
+
+    reg cond;
+# ERROR: Invalid Argument/Option - 'cond'.
+# Type "REG /?" for usage.
+    parameter T0 = 3'b000, T1 = 3'b001, T2 = 3'b010, T3 = 3'b011, T4 = 3'b100, T5 = 3'b101;
+# invalid command name "parameter"
+
+    // Control FSM state table
+# invalid command name "//"
+    always @(Tstep_Q, Run, Done)
+# invalid command name "always"
+        case (Tstep_Q)
+# wrong # args: should be "case string ?in? ?pattern body ...? ?default body?"
+            T0: // instruction fetch
+# invalid command name "T0:"
+                if (~Run) Tstep_D = T0;
+# invalid bareword "Run"
+# in expression "(~Run)";
+# should be "$Run" or "{Run}" or "Run(...)" or ...
+                else Tstep_D = T1;
+# invalid command name "else"
+            T1: // wait cycle for synchronous memory
+# invalid command name "T1:"
+                Tstep_D = T2;
+# invalid command name "Tstep_D"
+            T2: // this time step stores the instruction word in IR
+# invalid command name "T2:"
+                Tstep_D = T3;
+# invalid command name "Tstep_D"
+            T3: if (Done) Tstep_D = T0;
+# invalid command name "T3:"
+                else Tstep_D = T4;
+# invalid command name "else"
+            T4: if (Done) Tstep_D = T0;
+# invalid command name "T4:"
+                else Tstep_D = T5;
+# invalid command name "else"
+            T5: // instructions end after this time step
+# invalid command name "T5:"
+                Tstep_D = T0;
+# invalid command name "Tstep_D"
+            default: Tstep_D = 3'bxxx;
+# invalid command name "default:"
+        endcase
+# invalid command name "endcase"
+
+    /* OPCODE format: III M XXX DDDDDDDDD, where 
+# invalid command name "/*"
+    *     III = instruction, M = Immediate, XXX = rX. If M = 0, DDDDDDDDD = 000000YYY = rY
+# invalid command name "*"
+    *     If M = 1, DDDDDDDDD = #D is the immediate operand 
+# invalid command name "*"
+    *
+# invalid command name "*"
+    *  III M  Instruction   Description
+# invalid command name "*"
+    *  --- -  -----------   -----------
+# invalid command name "*"
+    *  000 0: mv   rX,rY    rX <- rY
+# invalid command name "*"
+    *  000 1: mv   rX,#D    rX <- D (sign extended)
+# invalid command name "*"
+    *  001 1: mvt  rX,#D    rX <- D << 8
+# invalid command name "*"
+    *  010 0: add  rX,rY    rX <- rX + rY
+# invalid command name "*"
+    *  010 1: add  rX,#D    rX <- rX + D
+# invalid command name "*"
+    *  011 0: sub  rX,rY    rX <- rX - rY
+# invalid command name "*"
+    *  011 1: sub  rX,#D    rX <- rX - D
+# invalid command name "*"
+    *  100 0: ld   rX,[rY]  rX <- [rY]
+# invalid command name "rY"
+    *  101 0: st   rX,[rY]  [rY] <- rX
+# invalid command name "rY"
+    *  110 0: and  rX,rY    rX <- rX & rY
+# invalid command name "*"
+    *  110 1: and  rX,#D    rX <- rX & D */
+# invalid command name "*"
+    parameter mv = 3'b000, mvt = 3'b001, add = 3'b010, sub = 3'b011, ld = 3'b100, st = 3'b101,
+# invalid command name "parameter"
+	     and_ = 3'b110;
+# invalid command name "and_"
+    // selectors for the BusWires multiplexer
+# invalid command name "//"
+    parameter _R0 = 4'b0000, _R1 = 4'b0001, _R2 = 4'b0010, _R3 = 4'b0011, _R4 = 4'b0100,
+# invalid command name "parameter"
+        _R5 = 4'b0101, _R6 = 4'b0110, _PC = 4'b0111, _G = 4'b1000, 
+# invalid command name "_R5"
+        _IR8_IR8_0 /* signed-extended immediate data */ = 4'b1001, 
+# invalid command name "_IR8_IR8_0"
+        _IR7_0_0 /* immediate data << 8 */ = 4'b1010,
+# invalid command name "_IR7_0_0"
+        _DIN /* data-in from memory */ = 4'b1011;
